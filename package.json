@@ -1,0 +1,40 @@
+{
+  "name": "findhit-file-sytem",
+  "description": "nodejs fs promisified by findhit-promise",
+  "version": "0.0.1",
+  "author": "findhit (http://findhit.com)",
+  "contributors": [
+    {
+      "name": "José Moreira",
+      "email": "jose.moreira@findhit.com"
+    },
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/findhit-file-sytem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/findhit/findhit-promise/issues"
+  },
+  "dependencies": {
+    "findhit-promise": "findhit/findhit-promise"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3",
+    "sinon": "^1.10.3"
+  },
+  "keywords": [
+    "promise",
+    "promisified",
+    "fs",
+    "findhit-promise",
+    "nodejs"
+  ],
+  "main": "index",
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8"
+  },
+  "license": "GPL v3"
+}
