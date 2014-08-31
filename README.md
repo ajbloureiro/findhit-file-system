@@ -1,4 +1,4 @@
-node-promisified-fs
-===================
+findhit-file-sytem
+==================
 
-nodejs fs promisified
+nodejs fs promisified by findhit-promise
