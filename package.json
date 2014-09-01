@@ -17,8 +17,8 @@
     "url": "https://github.com/findhit/findhit-promise/issues"
   },
   "dependencies": {
-    "findhit-util": "findhit/findhit-util",
-    "findhit-promise": "findhit/findhit-promise"
+    "findhit-util": "latest",
+    "findhit-promise": "latest"
   },
   "devDependencies": {
     "chai": "^1.9.1",
