@@ -7,7 +7,7 @@
     {
       "name": "José Moreira",
       "email": "jose.moreira@findhit.com"
-    },
+    }
   ],
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "url": "https://github.com/findhit/findhit-promise/issues"
   },
   "dependencies": {
+    "findhit-util": "findhit/findhit-util",
     "findhit-promise": "findhit/findhit-promise"
   },
   "devDependencies": {
