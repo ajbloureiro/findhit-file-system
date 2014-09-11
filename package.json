@@ -17,8 +17,8 @@
     "url": "https://github.com/findhit/findhit-promise/issues"
   },
   "dependencies": {
-    "findhit-util": "latest",
-    "findhit-promise": "latest"
+    "findhit-util": "^0.0.8",
+    "findhit-promise": "^0.0.3"
   },
   "devDependencies": {
     "chai": "^1.9.1",
@@ -38,7 +38,7 @@
   ],
   "main": "index",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find tests/* -name '*.test.js')"
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
   },
   "engines": {
     "node": ">=0.8"
